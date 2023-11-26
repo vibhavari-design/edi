@@ -1,0 +1,138 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Poppins", sans-serif;
+   ;
+}
+
+body {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/h.jpg");
+   background-blend-mode: darken;
+}
+
+.logo img {
+   width: 19%;
+   margin-left: 30px;
+   margin-top: 6px;
+}
+
+.container {
+   position: absolute;
+   margin-left: 36%;
+   margin-top: 1%;
+   width: 440px;
+   height: 590px;
+   background-color:#000;
+   text-align: center;
+}
+
+.container h1 {
+
+   color: #fff;
+   margin-top:30px;
+}
+
+input {
+   margin-top: 20px;
+   width: 320px;
+   height: 47px;
+   background-color:#fff;
+   border-radius: 3px;
+   border: none;
+   font-size: 20px;
+   
+}
+
+input::placeholder {
+   font-size: 17px;
+   margin-left: 15px;
+   padding: 12px
+}
+
+input[type=submit] {
+   width: 320px;
+   height: 45px;
+   background-color: #db0001;
+   color: #fff;
+   border-radius: 3px;
+   cursor: pointer;
+   margin-top: 40px;
+}
+
+input[type=checkbox] {
+   width: 25px;
+   height: 18px;
+   border-radius: 5px;
+}
+
+label {
+   color: rgb(125, 119, 119);
+}
+.content {
+   position: absolute;
+   margin-top: 80px;
+   font-size: 5px;
+   margin-left:90px;
+}
+
+.content h2 {
+   color: rgb(125, 119, 119);
+   font-size:15px;
+}
+
+.container a {
+   color: #fff;
+   text-decoration: none;
+}
+.error{
+   color:#db0001;
+}
+.form p{
+   color:#fff;
+}
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+@media only screen and (max-width:600px) {
+   .logo img {
+      width: 40%;
+   }
+   .container {
+      position: absolute;
+      margin-left:12%;
+      margin-top: 4%;
+      width:300px;
+      height:590px;
+      background-color: #000;
+      text-align: center;
+   }
+   .container h1 {
+      color: #fff;
+      margin-top:20px;
+      margin-bottom:50px;
+      font-size:30px;
+   }
+   input {
+      margin-left:10px;
+      margin-top: 20px;
+      width:250px;
+      height:40px;
+   }
+   input[type=submit] {
+      width: 250px;
+      height: 45px;
+      margin-top: 30px;
+   }
+   .form a{
+      margin-right:90px;
+   }
+   .content h2{
+      margin-right:90px;
+      font-size:15px;
+   }
+   body {
+      text-align: center;
+   }
+}
