@@ -13,7 +13,7 @@ const FingerprintJS = require('@fingerprintjs/fingerprintjs-pro');
 //   .then(fp => fp.get())
 //   .then(result => console.log(result.visitorId))
 // Init client with the given region and the secret api_key
-const clientF = new FingerprintJsServerApiClient({ region: Region.Global, apiKey: "mhvKGtvOrTg6eDiLLO3c" });
+const clientF = new FingerprintJsServerApiClient({ region: Region.Global, apiKey: "FGjvw1UJPUqkjtTmCR0i" });
 let code, userD,result;
 let mailTransporter = nodemailer.createTransport({
   service: "gmail",
